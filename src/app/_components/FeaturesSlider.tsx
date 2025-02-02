@@ -70,9 +70,8 @@ const FeaturesSlider = () => {
               swiper?.slideToLoop(index);
               setActiveIndex(index);
             }}
-            className={`px-10 py-2 border-0 bg-transparent text-lg font-medium leading-[32.4px] cursor-pointer transition-all rounded-full text-blue-main
-              ${activeIndex === index ? "font-semibold bg-blue-main/20" : ""}
-              hover:text-blue-600`}
+            className={`px-10 py-2 border-0 bg-transparent text-lg font-medium leading-[32.4px] cursor-pointer transition-all rounded-full text-blue-main ${activeIndex === index ? "font-semibold bg-blue-main/20" : ""}
+`}
           >
             {button}
           </button>
@@ -81,15 +80,14 @@ const FeaturesSlider = () => {
 
       <Swiper
         modules={[Autoplay]}
-        //autoplay={{
-        //  delay: 3000,
-        //  disableOnInteraction: false,
-        //  pauseOnMouseEnter: true,
-        //}}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
         loop={true}
         onSwiper={(swiperInstance: SwiperCore) => setSwiper(swiperInstance)}
         onSlideChange={(swiper: SwiperCore) => {
-          // Use realIndex for proper tracking in loop mode
           setActiveIndex(swiper.realIndex);
         }}
         className="w-full drop-shadow-[0px_16px_21px_rgba(207,233,247,0.47)]"
