@@ -1,5 +1,13 @@
+import Banner from "./_components/Banner";
+import PoweringFuture from "./_components/PoweringFuture";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <main>
+      <Banner />
+      <PoweringFuture />
+    </main>
+  );
 };
 
 export default HomePage;
