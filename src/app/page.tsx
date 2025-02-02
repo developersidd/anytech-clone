@@ -1,4 +1,6 @@
 import Banner from "./_components/Banner";
+import Legacy from "./_components/Legacy";
+import Philosophy from "./_components/Philosophy";
 import PoweringFuture from "./_components/PoweringFuture";
 
 const HomePage = () => {
@@ -6,6 +8,8 @@ const HomePage = () => {
     <main>
       <Banner />
       <PoweringFuture />
+      <Philosophy />
+      <Legacy />
     </main>
   );
 };

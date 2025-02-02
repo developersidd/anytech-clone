@@ -10,6 +10,11 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
+p,
+button {
+  font-family: "inter", sans-serif;
+}
+
 @layer utilities {
   .banner-clipPath {
     clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
@@ -17,5 +22,17 @@ body {
 
   .banner-image-clipPath {
     clip-path: polygon(67% 0, 100% 0, 100% 68%, 80% 100%, 0 100%, 32% 51%);
+  }
+
+  .legacy-clip-path {
+    clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
+  }
+  .legacy-bg {
+    background-color: radial-gradient(
+      24.45% 88.58% at 23.57% 2%,
+      #00e9ea 0%,
+      #1f80f0 52.08%,
+      #005bc4 100%
+    );
   }
 }
