@@ -70,7 +70,7 @@ const FeaturesSlider = () => {
               swiper?.slideToLoop(index);
               setActiveIndex(index);
             }}
-            className={`px-10 py-2 border-0 bg-transparent text-lg font-medium leading-[32.4px] cursor-pointer transition-all rounded-full text-blue-main ${activeIndex === index ? "font-semibold bg-blue-main/20" : ""}
+            className={`${activeIndex === index ? "font-semibold bg-blue-main/20" : ""} px-10 py-2 border-0 text-lg font-medium leading-[32.4px] cursor-pointer transition-all rounded-full text-blue-main 
 `}
           >
             {button}
