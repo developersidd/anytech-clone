@@ -11,9 +11,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`container font-inter max-lg:bg-blue-main flex justify-between mx-auto py-5 items-center absolute top-0 left-0 right-0 z-30 ${
-          isOpen ? "overflow-hidden scrollbar-hide" : ""
-        }`}
+        className={`container font-inter  flex justify-between mx-auto py-5 items-center absolute top-0 left-0 right-0 z-30 `}
       >
         {/* Logo */}
         <div className="flex items-end md:items-center gap-2">

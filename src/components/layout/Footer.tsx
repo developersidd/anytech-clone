@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex gap-6  lg:gap-10">
+          <div className="flex gap-6 sm:hidden  lg:gap-10">
             <Link href="/linkedin">
               <Icon
                 className="w-[24px] h-[25px]"

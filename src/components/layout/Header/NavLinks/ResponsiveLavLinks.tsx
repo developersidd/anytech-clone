@@ -12,18 +12,21 @@ const itemVariants = {
 
 const ResponsiveNavLinks = ({
   isOpen,
-  onClose,
 }: {
   isOpen: boolean;
   onClose: () => void;
 }) => {
   return (
     <>
-      <motion.header className="lg:hidden" animate={isOpen ? "open" : "closed"}>
+      <motion.header
+      initial={false}
+        className="lg:hidden"
+        animate={isOpen ? "open" : "closed"}
+      >
         {/* Nav Links */}
         <nav className="">
           <motion.ul
-            className="w-screen  shadow-md px-5 h-[40dvh] rounded-t-x fixed right-0 top-16 bg-[#1B76E9] text-white py-10 pl-6 font-medium  space-y-5  z-30"
+            className="w-screen  shadow-md px-5 h-[30dvh] rounded-t-x fixed right-0 top-16 bg-[#1B76E9] text-white py-10 pl-12 font-medium  space-y-5  z-30"
             variants={{
               open: {
                 transition: {

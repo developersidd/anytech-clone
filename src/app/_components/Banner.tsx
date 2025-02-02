@@ -5,19 +5,19 @@ const Banner = () => {
   return (
     <section
       className="banner-clipPath
-      lg:h-[max(620px,_calc(92vh-49px))] h-auto relative w-full text-white  pt-[30%] md:pt-[20%] lg:pt-0 max-lg:pb-[15%]   bg-[radial-gradient(59.82%_121.73%_at_-9.66%_130.31%,#00e9ea_0%,#1f80f0_52.08%,#005bc4_100%)] 
+      lg:h-[max(620px,_calc(92vh-49px))] h-auto relative w-full text-white  pt-[27%] md:pt-[20%] lg:pt-0 max-sm:pb-[40%] max-lg:pb-[20%]   bg-[radial-gradient(59.82%_121.73%_at_-9.66%_130.31%,#00e9ea_0%,#1f80f0_52.08%,#005bc4_100%)] 
       "
     >
       <div className="relative  w-full h-full md:flex md:items-center md:justify-center">
         <div className="z-30 container h-fit lg:flex-[65] xl:flex-[75] space-y-7">
-          <h1 className="lg:max-w-3xl lg:whitespace-pre-line text-[80px] leading-[115%] tracking-[-1.6px] font-semibold font-Montserrat  text-white">
+          <h1 className="lg:max-w-3xl lg:whitespace-pre-line text-[35px] xl:text-[65px] 2xl:text-[80px] leading-[115%] tracking-[-1.6px] font-semibold font-Montserrat  text-white">
             Embrace the future of finance
           </h1>
           <h5 className="text-white max-w-[37rem] lg:mr-5 text-lg font-medium font-Montserrat">
             Reimagine financial services with AnyTech’s open platform,
             distributed banking solution that powers transformation
           </h5>
-          <button className=" text-white font-bold rounded    max-lg:w-full max-lg:justify-center max-lg:mt-16 pl-10 pr-16 py-[16px]  lg:flex items-center group/highlight bg-orange-main transition-all drop-shadow-sm  ">
+          <button className=" text-white font-bold rounded    max-lg:w-full max-lg:justify-center max-lg:mt-16 pl-10 pr-16 py-[16px] flex items-center group/highlight bg-orange-main transition-all drop-shadow-sm  ">
             <span> React Out to Us </span>
             <svg
               className="fill-white translate-x-3.5 transition-transform group-hover/highlight:translate-x-5 "

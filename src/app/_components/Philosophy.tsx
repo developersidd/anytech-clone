@@ -27,7 +27,7 @@ const Philosophy = () => {
           {" "}
           our philosophy
         </h6>
-        <h1 className="text-[56px] leading-[61.6px] text-blue-dark font-bold">
+        <h1 className="text-[35px] lg:text-[56px] lg:leading-[61.6px] text-blue-dark font-bold">
           {" "}
           Human-centred innovation
         </h1>

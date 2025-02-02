@@ -3,8 +3,8 @@ import LegacySvg from "./LegacySvg";
 const Legacy = () => {
   return (
     <section className="relative h-[60vh] lg:h-[530px] w-full text-white bg-clip-cta overflow-hidden bg-[url('/assets/backgrounds/legacy-wave.svg'),_radial-gradient(24.45%_88.58%_at_23.57%_2%,#00e9ea_0%,#1f80f0_52.08%,#005bc4_100%)] bg-no-repeat bg-cover md:z-20 z-0 legacy-clip-path legacy-bg">
-      <div className="z-30 container flex w-full items-start justify-center h-full relative  flex-col mt-6">
-        <h2 className="font-montserrat text-[56px] leading-[61.6px]  text-white font-semibold mb-[24px]">
+      <div className="z-30 container flex w-full items-start max-sm:mt-20 justify-center h-full relative  flex-col mt-6">
+        <h2 className="font-montserrat text-2xl xl:text-[56px] leading-[61.6px]  text-white font-semibold mb-[24px]">
           Legacy no longer
         </h2>{" "}
         <p className="text-base font-inter lg:text-lg 2xl:text-xl lg:whitespace-pre-line mb-[30px]">
@@ -12,7 +12,7 @@ const Legacy = () => {
           future
         </p>
         <div className="flex lg:flex-row flex-col lg:space-x-[16px] space-y-4 lg:space-y-0 w-full">
-          <button className=" text-white font-bold rounded    max-lg:w-full max-lg:justify-center max-lg:mt-16 pl-10 pr-14 py-[16px]  lg:flex items-center group/highlight bg-orange-main transition-all drop-shadow-sm  ">
+          <button className=" text-white font-bold rounded    max-lg:w-full max-lg:justify-center lg:mt-16 pl-10 pr-14 py-[16px]  flex items-center group/highlight bg-orange-main transition-all drop-shadow-sm  ">
             <span> Contact Us </span>
             <svg
               className="fill-white translate-x-3.5 transition-transform group-hover/highlight:translate-x-5 "

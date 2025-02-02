@@ -1,4 +1,5 @@
 import Banner from "./_components/Banner";
+import FutureFinance from "./_components/FutureFinance";
 import Legacy from "./_components/Legacy";
 import Philosophy from "./_components/Philosophy";
 import PoweringFuture from "./_components/PoweringFuture";
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Banner />
       <PoweringFuture />
       <Philosophy />
+      <FutureFinance/>
       <TrustedCompanies />
       <Legacy />
     </main>

@@ -3,13 +3,13 @@ import Image from "next/image";
 const PoweringFuture = () => {
   return (
     <>
-      <section className="container mt-40">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="space-y-7">
+      <section className="container mt-20 lg:mt-40 max-sm:mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-10">
+          <div className="max-sm:text-center space-y-7">
             <h6 className="text-blue-main leading-[24px] tracking-[2.56px] font-bold">
               POWERING THE FUTURE OF FINANCE{" "}
             </h6>
-            <h1 className="text-[56px] leading-[61.6px] text-blue-dark font-bold">
+            <h1 className="text-[35px] lg:text-[56px] lg:leading-[61.6px] text-blue-dark font-bold">
               Uncovering new ways to delight customers
             </h1>
             <div className="space-y-7">
@@ -42,7 +42,7 @@ const PoweringFuture = () => {
                 loading="lazy"
               />
             </figure>
-          {/* Finance Icons */}
+            {/* Finance Icons */}
             <div>
               <figure className="absolute top-[10%] right-[12%] translate-x-1/2 w-[min(115px,_30%)] rounded-full drop-shadow-2xl">
                 <Image
@@ -114,8 +114,7 @@ const PoweringFuture = () => {
                 height={1364}
                 alt="POWERING THE FUTURE OF FINANCE"
                 className="object-cover w-full h-full"
-                sizes="(min-width: 1024px) 45vw, 95vw" 
-
+                sizes="(min-width: 1024px) 45vw, 95vw"
                 loading="lazy"
               />
             </figure>
